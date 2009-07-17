@@ -1,4 +1,3 @@
-# $Id: PKGBUILD,v 1.16 2009/04/08 21:07:01 dsa Exp $
 # Maintainer: Douglas Soares de Andrade <dsa@aur.archlinux.org>
 # Contributor: William Rea <sillywilly@gmail.com>
 
