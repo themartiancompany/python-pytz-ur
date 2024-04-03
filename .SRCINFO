@@ -1,11 +1,12 @@
 pkgbase = python-pytz
 	pkgdesc = Cross platform time zone library for Python
 	pkgver = 2024.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://pypi.python.org/pypi/pytz
 	arch = any
 	license = MIT
 	makedepends = python
+	makedepends = python-setuptools
 	depends = python
 	source = https://pypi.io/packages/source/p/pytz/pytz-2024.1.tar.gz
 	source = 0001-Use-the-system-zoneinfo-from-the-tzdata-package.patch
