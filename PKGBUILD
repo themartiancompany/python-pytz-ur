@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Maintainer: Stefan Husmann <stefan-husmann@t-online.de>
 # Maintainer: Jelle van der Waa <jelle@vdwaa.nl>
 # Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.org>
@@ -43,3 +47,4 @@ package(){
 
     install -Dm644 LICENSE.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
 }
+
