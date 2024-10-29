@@ -79,7 +79,7 @@ check(){
 
 package(){
   cd \
-    "${_pkg}-${pkgver}/${_pkg}/tests"
+    "${_pkg}-${pkgver}"
   "${_py}" \
     setup.py \
       install \
