@@ -52,7 +52,7 @@ validpgpkeys=(
 
 prepare() {
   cd \
-    "${_py}-${pkgver}"
+    "${_pkg}-${pkgver}"
   patch \
     -p2 \
     -i \
@@ -64,7 +64,7 @@ prepare() {
 
 build(){
   cd \
-    "${_py}-${pkgver}"
+    "${_pkg}-${pkgver}"
   "${_py}" \
     setup.py \
       build
@@ -72,14 +72,14 @@ build(){
 
 check(){
   cd \
-    "${_py}-${pkgver}/${_pkg}/tests"
+    "${_pkg}-${pkgver}/${_pkg}/tests"
   "${_py}" \
     test_tzinfo.py
 }
 
 package(){
   cd \
-    "${_py}-${pkgver}/${_pkg}/tests"
+    "${_pkg}-${pkgver}/${_pkg}/tests"
   "${_py}" \
     setup.py \
       install \
